@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Citron</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Citron</a>
+  </nav>
+   
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <p class="subtitle">Citron</p>
+        <p class="title">Citron jaune</p>
+        <img src="img/Citron.png" alt="citron">
+      </div>
+      
+      <div class="swiper-slide">
+        <p class="subtitle">Citron</p>
+        <p class="title">Citron vert</p>
+        <img src="img/citronvert.png" alt="citron vert">
+      </div>
+
+      <div class="swiper-slide">
+        <p class="subtitle">Citron</p>
+        <p class="title">Citron bizarre</p>
+        <img src="img/citronbizarre.png" alt="citron bizarre">
+      </div>
+
+      <div class="swiper-slide">
+        <p class="subtitle">Citron</p>
+        <p class="title">Citron noir</p>
+        <img src="img/citronnoir.png" alt="citron noir">
+      </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <form action=""method="POST" enctype="multipart:form-data">
+    <div>
+        <label for="Lemon">Citron</label>
+        <input type="text" id="lemon" name="lemon" placeholder="choisi ton citron">
+    </div>
+    <div>
+    <select name="Citron" id="Citron">
+        <option value="Citron Jaune"> Citron Jaune</option>
+        <option value="Citron Vert"> Citron Vert </option>
+        <option value="Citron bossu"> Citron Bossu </option>
+        <option value="Citron Noir"> Citron Noir </option>
+        <option value="Citron mystere"> Citron Mystere </option>
+    </select>
+    </div>
+   <select name="sitron" id="sitron">
+        <option value="HTML">Pays d'importation / Argentine</option>
+        <option value="PHP">Pays d'importation/ Chilli</option>
+        <option value="JS">Pays d'importation / Brésil</option>
+    </select>
+
+    <div>
+        <label for="recipe">Magasin</label>
+        <input type="recipe" id="recipe" name="recipe" placeholder="Magasin pour vos citrons">
+    </div>
+    <div>
+    <select>
+        <label for="story"> Decris ton projet en quelques lignes :</label>
+
+        <textaea id="story" name="story" rows="5" cols="33">
+            Mon Projet...
+        </textaea>
+      </select>
+
+
+      <p id="title">Magasin</p>
+  
+      <section class="accordeon">
+          <div class="titre">
+              <p>Contenu des commercants</p>
+          </div>
+          <div class="contenu">
+              <ul>
+                  <li>Carrefour</li>
+                  <li>Leclerc</li>
+                  <li>Auchan</li>
+                  <li>Lidl</li>
+                  <li>Franprix</li>
+              </ul>
+          </div>
+      </section>
+      <section class="accordeon">
+          <div class="titre">
+              <p>types de citrons</p>
+  
+          </div>
+          <div class="contenu">
+              <ul>
+                  <li>jaune</li>
+                  <li>vert</li>
+                  <li>caviar de citron</li>
+                  <li>Miel de citron</li>
+                  <li>citron bossu</li>
+              </ul>
+          </div>
+      </section>
+  
+    
+<body class="white-mode">
+  <h1></h1>
+  <p>Dark/Light</p>
+  <button i="toggle-btn" onclick="toggleMode()">Toggle Dark Mode</button>
+        
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"> </script>
+
+</body>
+</html>

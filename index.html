@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Citron</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+
+  <nav>
+    <a href="citron.html">Citron</a>
+  </nav>
+    
+    <main>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide citron">
+          <p class="subtitle">Citron</p>
+          <p class="title">Citron jaune</p>
+         <img src="img/Citron.png" alt="citron">
+      </div>
+      
+      <div class="swiper-slide slide citron vert">
+        <p class="subtitle">Citron</p>
+        <p class="title">Citron vert</p>
+        <img src="img/citronvert.png" alt="citron vert">
+      </div>
+
+      <div class="swiper-slide slide citron bizarre">
+        <p class="subtitle">Citron</p>
+        <p class="title">Citron bizarre</p>
+        <img src="img/citronbizarre.png" alt="citron bizarre">
+      </div>
+
+      <div class="swiper-slide slide citron noir">
+        <p class="subtitle">Citron</p>
+        <p class="title">Citron noir</p>
+        <img src="img/citronnoir.png" alt="citron noir">
+      </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Carrefour')">Carrefour</button>
+    <button class="tablinks" onclick="openCity(event, 'Leclerc')">Leclerc</button>
+    <button class="tablinks" onclick="openCity(event, 'Auchan')">Auchan</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Carrefour" class="tabcontent">
+    <h3>Nos offres</h3>
+    <p>Nos citrons</p>
+  </div>
+  
+  <div id="Leclerc" class="tabcontent">
+    <h3>Nos offres</h3>
+    <p>Nos citrons</p>
+  </div>
+  
+  <div id="Auchan" class="tabcontent">
+    <h3>Nos offres</h3>
+    <p>Nos citrons</p>
+  </div>
+  
+
+
+  <div class="message-error">
+    <ul></ul>
+  </div>
+<div class="message-success">
+    Formulaire envoyé !
+</div>
+<form action="" method="POST" enctype="multipart/form-data">
+    <div>
+        <label for="pseudo">Pseudo</label>
+        <input type="text" name="pseudo" id="pseudo">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div>
+        <label for="password">Mot de passe</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div>
+        <label for="password2">Entrer à nouveau le mot de passe</label>
+        <input type="password2" name="password2" id="password2">
+    </div>
+    <button type="submit">S'inscrire</button>
+
+  </form>
+
+<body class="white-mode">
+  <h1></h1>
+   <p>Dark/Light</p>
+   <button i="toggle-btn" onclick="toggleMode()">Toggle Dark Mode</button>
+
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"> </script>
+
+</body>
+</html>
